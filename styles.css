@@ -1,0 +1,88 @@
+.attribution {
+  font-size: 15px;
+  text-align: center;
+  color: hsla(0, 0%, 100%, 0.75);
+  padding-bottom: 2rem;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-color: hsl(233, 47%, 7%);
+  padding: 6rem 6rem 0rem 6rem;
+}
+
+.container-fluid {
+  background-color: hsl(244, 38%, 16%);
+}
+
+h1 {
+  font-family: Lexend Deca;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 2rem;
+}
+
+span {
+  color: hsl(277, 64%, 61%);
+}
+
+p {
+  font-family: Inter;
+  color: hsla(0, 0%, 100%, 0.6);
+  padding-right: 5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  color: hsl(0, 0%, 100%);
+}
+
+.header {
+  padding: 3rem 3rem 3rem 5rem;
+}
+
+.stats {
+  margin-top: 4rem;
+}
+
+/* Styling Image */
+
+.image-container {
+  position: relative;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.image {
+  width: 100%;
+}
+
+.image-overlay {
+  background: hsl(277, 64%, 61%);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+
+/* Media Queries */
+@media (max-width:600px) {
+  .container-fluid {
+    text-align: center;
+  }
+
+  p {
+    padding-right: 0px;
+  }
+
+  .header {
+    order: 2;
+    padding: 48px;
+  }
+
+  .image-conatainer {
+    order: 1;
+  }
+}
